@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Riqki0226.tebakgambartugas"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.Riqki0226.tebakgambartugas.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.Riqki0226.tebakgambartugas.Soal1"
+            android:label="@string/title_activity_soal1" >
+        </activity>
+        <activity
+            android:name="com.Riqki0226.tebakgambartugas.Soal2"
+            android:label="@string/title_activity_soal2" >
+        </activity>
+        <activity
+            android:name="com.Riqki0226.tebakgambartugas.Soal3"
+            android:label="@string/title_activity_soal3" >
+        </activity>
+        <activity
+            android:name="com.Riqki0226.tebakgambartugas.Soal4"
+            android:label="@string/title_activity_soal4" >
+        </activity>
+        <activity
+            android:name="com.Riqki0226.tebakgambartugas.Soal5"
+            android:label="@string/title_activity_soal5" >
+        </activity>
+        <activity
+            android:name="com.Riqki0226.tebakgambartugas.Soal6"
+            android:label="@string/title_activity_soal6" >
+        </activity>
+        <activity
+            android:name="com.Riqki0226.tebakgambartugas.Soal7"
+            android:label="@string/title_activity_soal7" >
+        </activity>
+        <activity
+            android:name="com.Riqki0226.tebakgambartugas.Soal8"
+            android:label="@string/title_activity_soal8" >
+        </activity>
+        <activity
+            android:name="com.Riqki0226.tebakgambartugas.Soal9"
+            android:label="@string/title_activity_soal9" >
+        </activity>
+        <activity
+            android:name="com.Riqki0226.tebakgambartugas.Soal10"
+            android:label="@string/title_activity_soal10" >
+        </activity>
+        <activity
+            android:name="com.Riqki0226.tebakgambartugas.Selesai"
+            android:label="@string/title_activity_selesai" >
+        </activity>
+        <activity
+            android:name="com.Riqki0226.tebakgambartugas.Petunjuk"
+            android:label="@string/title_activity_petunjuk" >
+        </activity>
+        <activity
+            android:name="com.Riqki0226.tebakgambartugas.TampilanUtama"
+            android:label="@string/title_activity_tampilan_utama" >
+        </activity>
+    </application>
+
+</manifest>
